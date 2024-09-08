@@ -1,0 +1,55 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero-section .btn {
+    padding: 10px 20px;
+}
+
+/* About Section */
+.about-section {
+    text-align: center;
+}
+
+/* Rooms Section */
+.rooms-section .card {
+    margin-bottom: 20px;
+}
+
+.rooms-section .card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Contact Section */
+.contact-section form {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+}
